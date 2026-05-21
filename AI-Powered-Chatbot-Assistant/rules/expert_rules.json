@@ -1,0 +1,62 @@
+{
+  "domain": "tech_troubleshooting",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Is your device not powering on? (yes/no)",
+      "fact": "no_power"
+    },
+    {
+      "id": "q2",
+      "question": "Are there unusual overheating symptoms? (yes/no)",
+      "fact": "overheating"
+    },
+    {
+      "id": "q3",
+      "question": "Is your internet connection unstable? (yes/no)",
+      "fact": "network_instability"
+    },
+    {
+      "id": "q4",
+      "question": "Are applications crashing frequently? (yes/no)",
+      "fact": "app_crashes"
+    },
+    {
+      "id": "q5",
+      "question": "Has the system become very slow recently? (yes/no)",
+      "fact": "system_slow"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "if": ["no_power"],
+      "then": "battery_or_power_supply_issue",
+      "recommendation": "Check the charger, power cable, battery health, and try a hard reset."
+    },
+    {
+      "id": "r2",
+      "if": ["overheating", "system_slow"],
+      "then": "thermal_throttling",
+      "recommendation": "Clean air vents, close heavy background tasks, and monitor CPU temperature."
+    },
+    {
+      "id": "r3",
+      "if": ["network_instability"],
+      "then": "network_configuration_issue",
+      "recommendation": "Restart router, run diagnostics, and verify DNS settings."
+    },
+    {
+      "id": "r4",
+      "if": ["app_crashes", "system_slow"],
+      "then": "resource_or_software_conflict",
+      "recommendation": "Update drivers, remove conflicting apps, and check memory usage."
+    },
+    {
+      "id": "r5",
+      "if": ["app_crashes", "overheating"],
+      "then": "performance_related_instability",
+      "recommendation": "Reduce workload, update software, and inspect cooling system."
+    }
+  ]
+}

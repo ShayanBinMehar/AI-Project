@@ -1,0 +1,7 @@
+{
+  "what is ai": "Artificial Intelligence (AI) is the science of building systems that can perceive, reason, learn, and make decisions.",
+  "difference between bfs and dfs": "BFS explores level-by-level and guarantees shortest path in unweighted graphs, while DFS explores depth-first and may find a path faster but not always the shortest.",
+  "what is an expert system": "An expert system is a rule-driven AI that uses a knowledge base and inference engine to derive recommendations.",
+  "what is heuristic": "A heuristic is a practical strategy or scoring method used to make good decisions quickly when exhaustive search is expensive.",
+  "what is knowledge representation": "Knowledge representation is the way AI stores entities, relationships, and facts so reasoning algorithms can use them."
+}

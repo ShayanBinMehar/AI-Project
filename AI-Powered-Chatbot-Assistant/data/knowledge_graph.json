@@ -1,0 +1,20 @@
+{
+  "entities": {
+    "ai": {"type": "domain", "description": "Artificial Intelligence"},
+    "chatbot": {"type": "system", "description": "Conversational software agent"},
+    "bfs": {"type": "algorithm", "description": "Breadth First Search"},
+    "dfs": {"type": "algorithm", "description": "Depth First Search"},
+    "heuristic": {"type": "concept", "description": "Rule-of-thumb decision strategy"},
+    "expert_system": {"type": "system", "description": "Rule-based inference system"}
+  },
+  "relationships": [
+    ["chatbot", "uses", "intent_classification"],
+    ["chatbot", "uses", "keyword_extraction"],
+    ["expert_system", "uses", "forward_chaining"],
+    ["bfs", "is_a", "state_space_search"],
+    ["dfs", "is_a", "state_space_search"],
+    ["heuristic", "supports", "decision_making"],
+    ["ai", "contains", "knowledge_representation"],
+    ["ai", "contains", "logic_reasoning"]
+  ]
+}
