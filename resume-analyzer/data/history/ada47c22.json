@@ -1,0 +1,43 @@
+{
+  "id": "ada47c22",
+  "timestamp": "2026-06-06T07:44:36.400554+00:00",
+  "resume_filename": "Muhammad Shayan Bin Mehar_CV.pdf",
+  "match_score": 0.0,
+  "matched_skills": [],
+  "missing_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Data Science",
+    "Testing"
+  ],
+  "resume_skills": [
+    "Python",
+    "SQL",
+    "NoSQL",
+    "HTML",
+    "CSS",
+    "Statistics",
+    "Git",
+    "Linux",
+    "Problem Solving",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL"
+  ],
+  "job_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Data Science",
+    "Testing"
+  ],
+  "strengths": "Additional skills beyond requirements: Python, SQL, NoSQL, HTML, CSS",
+  "improvements": "Emphasize experience with Machine Learning, Deep Learning, Data Science, Testing in your resume. Add specific projects, metrics, and tools used for each missing skill.",
+  "suggested_learning": [
+    "Machine Learning",
+    "Deep Learning",
+    "Data Science",
+    "Testing"
+  ],
+  "skill_extraction_method": "keyword",
+  "llm_provider": "none"
+}

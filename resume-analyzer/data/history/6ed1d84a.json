@@ -1,0 +1,48 @@
+{
+  "id": "6ed1d84a",
+  "timestamp": "2026-06-06T07:37:40.992781+00:00",
+  "resume_filename": "test.txt",
+  "match_score": 50.0,
+  "matched_skills": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "AWS"
+  ],
+  "missing_skills": [
+    "FastAPI",
+    "Docker",
+    "Kubernetes",
+    "CI/CD"
+  ],
+  "resume_skills": [
+    "Python",
+    "SQL",
+    "Django",
+    "Flask",
+    "Machine Learning",
+    "AWS",
+    "Git",
+    "PostgreSQL"
+  ],
+  "job_skills": [
+    "Python",
+    "SQL",
+    "FastAPI",
+    "Machine Learning",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "CI/CD"
+  ],
+  "strengths": "Strong alignment in: Python, SQL, Machine Learning, AWS. Additional skills beyond requirements: Django, Flask, Git",
+  "improvements": "Emphasize experience with FastAPI, Docker, Kubernetes, CI/CD in your resume. Add specific projects, metrics, and tools used for each missing skill.",
+  "suggested_learning": [
+    "FastAPI",
+    "Docker",
+    "Kubernetes",
+    "CI/CD"
+  ],
+  "skill_extraction_method": "keyword",
+  "llm_provider": "none"
+}
